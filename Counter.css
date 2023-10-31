@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto';
+}
+.counter_container {
+    background-color: black;
+}
+
+.current_count {
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.current_count::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    bottom: -10%;
+    left: 0;
+}
+.btn_success{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 0;
+    padding: 8px 40px;
+}
+.btn_danger{
+    background-color: black;
+    border: 1px solid white;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 8px 40px;
+}
